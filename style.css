@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: black;
+}
+
+.botones {
+  margin-bottom: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+#btn-start,
+#btn-stop,
+#play-text {
+  border: 1px solid rgb(48, 44, 44);
+  border-radius: 6px;
+  width: 150px;
+  height: 50px;
+  margin: 6px;
+}
+
+#btn-start {
+  background-color: transparent;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+#btn-start:hover {
+  background-color: red;
+  transition: 2s ease all;
+}
+
+#btn-stop {
+  cursor: pointer;
+  background-color: transparent;
+  color: whitesmoke;
+}
+
+#btn-stop:hover {
+  background-color: gray;
+  transition: 2s ease all;
+}
+
+#play-text {
+  background-color: transparent;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+#play-text:hover {
+  background-color: green;
+  transition: 2s ease all;
+}
+
+.contenedor {
+  text-align: center;
+  margin-top: 80px;
+}
+
+#texto {
+  border: 1px solid rgb(48, 44, 44);
+  border-radius: 6px;
+  width: 300px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.title {
+  color: cyan;
+  text-align: center;
+  margin-top: 20px;
+}
